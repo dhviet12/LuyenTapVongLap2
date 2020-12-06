@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // let giaithua=1;
+    // let n= prompt('Nhập số để tính giai thừa số đó ');
+    // for(i=1; i<=n; i++) {
+    //     giaithua = giaithua * i;
+    // }
+    // alert('Giai thừa của số ' + n + ' là '+ giaithua);
+
+    function giaithua(number){
+        let result=1;
+        for (let i=1; i<= number; i++){
+            result *= i ;
+        }
+        return result
+    }
+    document.write(giaithua(10));
+</script>
+
+</body>
+</html>
